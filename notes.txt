@@ -1,0 +1,5 @@
+1. An NFT is just a token standard. In this case, it is EIP-721 which can be found here https://eips.ethereum.org/EIPS/eip-721
+
+2. IPFS sounds like a fancy word for decentralized storage. A network of nodes that allows you to hash a file and in return they give you a URI pointing to the location of that file. Other nodes in this network can decide to take a copy of your file and store as well if they are so inclined.
+
+3. In order to interact with IPFS, you need to either add the IPFS chrome extension or download brave browser app. You could also install the desktop application which will allow you upload files to the IPFS server.
