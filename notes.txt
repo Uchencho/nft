@@ -3,3 +3,9 @@
 2. IPFS sounds like a fancy word for decentralized storage. A network of nodes that allows you to hash a file and in return they give you a URI pointing to the location of that file. Other nodes in this network can decide to take a copy of your file and store as well if they are so inclined.
 
 3. In order to interact with IPFS, you need to either add the IPFS chrome extension or download brave browser app. You could also install the desktop application which will allow you upload files to the IPFS server.
+
+4. While IPFS is okay to store NFT, it has the issue where it is a bit centralized. Although, it is possible for other nodes to like and pin your NFT on their IPFS server as well, it is not a guarantee. One way is we could use app.pinata.cloud to create a redundancy for our NFT where we upload the file to IPFS and also upload the file to Pinata.
+
+5. To encode an svg file, we run on the cli base64 -i <<pathToFile>>, once we get the output, we can view it on a browser by prefixing data:image/svg+xml;base64,<<output>>
+e.g 
+data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgMjAwIDIwMCIgd2lkdGg9IjQwMCIgIGhlaWdodD0iNDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxjaXJjbGUgY3g9IjEwMCIgY3k9IjEwMCIgZmlsbD0ieWVsbG93IiByPSI3OCIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLXdpZHRoPSIzIi8+CiAgPGcgY2xhc3M9ImV5ZXMiPgogICAgPGNpcmNsZSBjeD0iNzAiIGN5PSI4MiIgcj0iMTIiLz4KICAgIDxjaXJjbGUgY3g9IjEyNyIgY3k9IjgyIiByPSIxMiIvPgogIDwvZz4KICA8cGF0aCBkPSJtMTM2LjgxIDExNi41M2MuNjkgMjYuMTctNjQuMTEgNDItODEuNTItLjczIiBzdHlsZT0iZmlsbDpub25lOyBzdHJva2U6IGJsYWNrOyBzdHJva2Utd2lkdGg6IDM7Ii8+Cjwvc3ZnPg==
