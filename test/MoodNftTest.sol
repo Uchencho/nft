@@ -41,4 +41,9 @@ contract MoodNftTest is Test {
         vm.expectRevert(MoodNft.MoodNft__CannotFlipIfNotOwner.selector);
         moodNft.flipMood(0);
     }
+
+    function testGetImageURI() public minted {
+        string memory imageURI = moodNft.getImageURI(0);
+        assertEq(imageURI, HAPPY_SVG_URI);
+    }
 }
